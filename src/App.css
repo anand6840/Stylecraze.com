@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  font-family: Poppins,sans-serif;
+    margin: auto;
+    width: 100%;
+    color: rgb(56, 56, 56);
+    background-color: white;
+}
+.App1{
+  text-align: center;
+  font-family: Poppins,sans-serif;
+    margin: auto;
+    width: 100%;
+
+    background-color: rgb(38, 36, 36);
+    color: white;
+}
+
+
+.fa-brands{
+  font-size: 20px;
+}
