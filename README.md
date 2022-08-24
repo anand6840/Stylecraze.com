@@ -1,1 +1,1 @@
-# This is stylecrze project by shivaji zirpe
+# This is stylecrze project by Anand Waghmare
