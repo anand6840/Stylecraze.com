@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.article_1_makeUp{
+  /* border: 1px solid rgb(230, 177, 177); */
+  letter-spacing: 1.1px;
+  display: flex;
+  margin: auto;
+  width: 90%;
+  margin-top: 2rem;
+  border-radius: 5px;
+}
+.article_1_title {
+  /* border: 2px solid red; */
+  width: 50%;
+}
+.article_1_title > h1 {
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.article_1_title > h1:hover {
+  text-decoration: rgb(240, 136, 118) underline;
+}
+.article_1_img {
+  /* border: 2px solid teal; */
+  width: 50%;
+  padding-top: 2rem;
+  margin: auto;
+}
+.article_1_img > img {
+  width: 90%;
+}
+.article_1_title > p {
+  padding: 1rem;
+  margin-top: 1.5rem;
+  justify-content: center;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.cards_section {
+ 
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90%;
+  gap: 1rem;
+  margin: auto;
+  margin-top: 2rem;
+}
+.card {
+  padding-left: 10px;
+  letter-spacing: 1.1px;
+  /* border: 1px solid rosybrown; */
+}
+.card > img {
+  width: 90%;
+  padding: 10px;
+}
+.card > p {
+  font-size: 22px;
+margin-bottom: 1rem;
+cursor: pointer;
+}
+.card > p:hover{
+  text-decoration:  rgb(240, 136, 118) underline;
+}

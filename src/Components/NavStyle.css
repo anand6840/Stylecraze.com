@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0%;
+}
+.box {
+  width: 100%;
+  height: 100px;
+  /* background-color: wheat; */
+  position: relative;
+}
+#home_logo {
+  padding: 2px;
+}
+.links {
+  /* border: 1px solid black; */
+  font-size: 20px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 0.5rem;
+}
+.link {
+  border-right: 2px solid rgb(235, 120, 139);
+  text-decoration: none;
+  cursor: pointer;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: black;
+}
+.link:hover {
+  text-decoration: 2px #ff5a78 underline;
+  color: #ff5a78;
+}

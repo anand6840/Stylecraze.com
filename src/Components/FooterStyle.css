@@ -1,0 +1,50 @@
+.footer_section {
+  margin: auto;
+  margin-top: 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgb(239, 236, 236);
+    gap: 1rem;
+  }
+  
+  .list_1_footer {
+    /* border: 1px solid black; */
+    padding: 10px;
+    letter-spacing: 1.1px;
+    line-height: 1.3em;
+  }
+  .list_2_footer {
+    /* border: 1px solid black; */
+    padding: 10px;
+    letter-spacing: 1.1px;
+    line-height: 1.3em;
+  }
+  .list_3_icons {
+    /* border: 1px solid black; */
+    padding: 10px;
+    letter-spacing: 1.1px;
+    line-height: 1.3em;
+  }
+  .list_4_footer {
+    /* border: 1px solid black; */
+    padding: 10px;
+    letter-spacing: 1.1px;
+    line-height: 1.3em;
+  }
+  #follow {
+    letter-spacing: 1.1px;
+    line-height: 1.3em;
+  }
+  .icons {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 1rem;
+    padding: 30px;
+    cursor: pointer;
+  }
+  .copyright_section{
+    padding-top: 1rem;
+    background-color: rgb(239, 236, 236);
+  
+  }

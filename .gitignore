@@ -1,0 +1,9 @@
+node_modules
+<<<<<<< HEAD
+=======
+package-lock.json
+.vercel
+build
+>>>>>>> e07add0d8ed45e5ef0c6c047cbab9d911c54c757
+
+.vercel

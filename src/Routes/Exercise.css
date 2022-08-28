@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+.exercise_api_box {
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  letter-spacing: 1.1px;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid salmon;
+  border-top: 2px solid salmon;
+  -webkit-box-shadow: 10px 10px 0px 3px rgba(255, 90, 120, 0.95);
+  -moz-box-shadow: 10px 10px 0px 3px rgba(255, 90, 120, 0.95);
+  box-shadow: 10px 10px 0px 3px rgba(255, 90, 120, 0.95);
+  border-radius: 5px;
+}

@@ -1,0 +1,158 @@
+.bmi_section {
+  /* border: 1px solid black; */
+  width: 80%;
+  justify-content: center;
+  margin: auto;
+  margin-top: 2rem;
+}
+.bmi_section {
+  letter-spacing: 1.1px;
+}
+.bmi_title {
+  font-weight: 400;
+}
+.bmi_desc {
+  border: 3px solid yellowgreen;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  margin-top: 1rem;
+  font-size: 18px;
+}
+.bmi_app {
+  border: 1px solid pink;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+.bmi_app > h1 {
+  color: tomato;
+}
+.bmi_input {
+  margin-top: 1rem;
+  border: transparent;
+  font-size: 22px;
+  text-align: center;
+  border-bottom: solid tomato;
+}
+
+.btns_bmi{
+    /* border: 1px solid black; */
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+/* CSS */
+.submit_bmi {
+  background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont,
+    sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.submit_bmi:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .submit_bmi {
+    padding: 10px 30px;
+  }
+}
+
+.reload_bmi {
+    background-color: #0f1411;
+    border: 1px solid #13aa52;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont,
+      sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    outline: 0;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .reload_bmi:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0 3px 9px 0;
+    transform: translateY(-2px);
+  }
+  
+  @media (min-width: 768px) {
+    .reload_bmi {
+      padding: 10px 30px;
+    }
+  }
+.bmi_message{
+    margin-top: 1rem;
+}
+.about_bmi{
+    border: 1px solid pink;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+.about_bmi>h2{
+    font-size: 30px;
+}
+.about_bmi>p{
+    margin-top: 1rem;
+    font-size: 20px;
+}
+.about_bmi>img{
+margin-top: 1rem;
+}
+.risk_bmi{
+    border: 1px solid pink;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 1rem;
+    border-radius: 5px;
+}
+.risk_bmi>h2{
+    font-size: 30px;
+}.risk_bmi>p{
+    margin-top: 1rem;
+    font-size: 20px;
+}
+.risk_list{
+    width: 50%;
+    /* border: 1px solid black; */
+    margin: auto;
+    font-size: 20px;
+    margin-top: 1rem;
+}
+
