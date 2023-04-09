@@ -6,6 +6,8 @@
 .heading_1 {
   /* border: 1px solid black; */
   display: flex;
+  align-items: center;
+  justify-content: center;
   font-weight: 600;
   font-size: 24px;
 }
